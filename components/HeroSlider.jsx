@@ -37,10 +37,10 @@ export default function HeroSlider() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length)
   }
 
-  if (!mounted) return null
+
 
   return (
-    <div className="relative w-full h-screen overflow-hidden mt-32">
+    <div id="hero-slider" className="relative w-full h-screen overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
