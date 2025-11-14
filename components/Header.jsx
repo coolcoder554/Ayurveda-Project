@@ -24,33 +24,15 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      {/* Top Info Bar */}
-      <div className="w-full bg-black/20 backdrop-blur-sm text-white text-sm py-2 px-4">
-        <div className="flex justify-between items-center max-w-full px-6">
-          <p className="font-light">We are open. Learn more about our COVID-19 safety protocols.</p>
-          <div className="flex items-center gap-6">
-            <a href="tel:+123456789" className="text-sm font-light">
-              📞 +123 456 789
-            </a>
-            <button className="bg-white/10 hover:bg-white/20 text-white px-6 py-2 text-sm font-light transition">
-              APPOINTMENT
-            </button>
-          </div>
-        </div>
-      </div>
+
 
       {/* Header with Logo and Nav */}
-      <div className="w-full bg-gradient-to-b from-black/30 to-transparent backdrop-blur-sm">
+      <div className="w-full bg-gradient-to-b from-black/30 to-transparent backdrop-blur-none">
         <div className="flex flex-col items-center py-8 px-6">
-          {/* Social Icons */}
-          <div className="absolute left-6 top-1/3 text-white/60 text-xs tracking-wider space-y-4">
-            <p>FB.</p>
-            <p>IG.</p>
-            <p>YT.</p>
-          </div>
+
 
           {/* Logo */}
-          <h1 className="text-5xl text-white font-serif tracking-wide mb-8">hibiscus</h1>
+          <h1 className="text-5xl text-white font-serif tracking-wide mb-8">Ayurveda</h1>
 
           {/* Navigation Menu */}
           <nav className="flex gap-8 text-white text-sm tracking-wide">

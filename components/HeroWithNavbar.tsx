@@ -126,7 +126,7 @@ export default function HeroWithNavbar() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative w-full h-screen mt-16 overflow-hidden bg-gray-200">
+      <section id="hero-with-navbar" className="relative w-full h-screen mt-16 overflow-hidden bg-gray-200">
         <img
           src="/spa-massage-therapy-relaxation-wellness-center.jpg"
           alt="Spa massage therapy"
