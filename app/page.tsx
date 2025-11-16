@@ -7,6 +7,7 @@ import HeroSlider from "@/components/HeroSlider"
 import AcupunctureFeatures from "@/components/AcupunctureFeatures"
 import ImageGallery from "@/components/ImageGallery"
 import TestimonialSection from "@/components/TestimonialSection"
+import AppointmentSection from "@/components/AppointmentSection"
 
 export default function Home() {
   const [heroVisible, setHeroVisible] = useState(false)
@@ -66,6 +67,7 @@ const [sliderVisible, setSliderVisible] = useState(true)
       
       <ImageGallery />
       <TestimonialSection />
+      <AppointmentSection />
     </main>
   )
 }
