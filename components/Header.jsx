@@ -67,20 +67,7 @@ export default function Header() {
           </nav>
 
           {/* Right Icons */}
-          <div className="absolute right-6 top-1/3 flex items-center gap-4 text-white">
-            <button className="hover:opacity-70 transition">
-              <Search size={20} />
-            </button>
-            <button className="hover:opacity-70 transition relative">
-              <ShoppingCart size={20} />
-              <span className="absolute -top-2 -right-2 bg-white text-black text-xs w-5 h-5 rounded-full flex items-center justify-center">
-                0
-              </span>
-            </button>
-            <button className="hover:opacity-70 transition md:hidden">
-              <Menu size={20} />
-            </button>
-          </div>
+          
         </div>
       </div>
     </header>

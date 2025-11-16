@@ -39,7 +39,10 @@ export default function HeroWithNavbar() {
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <div className="font-serif text-2xl font-500 text-[#111]">Ayurveda</div>
+            <div className="font-serif text-2xl font-500 text-[#111]">
+              <img src="/rushanklogo.jpg" alt="Logo" width="100" height="40" />
+
+            </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
@@ -127,21 +130,44 @@ export default function HeroWithNavbar() {
 
       {/* Hero Section */}
       <section id="hero-with-navbar" className="relative w-full h-screen mt-16 overflow-hidden bg-gray-200">
-        <img
+        {/* <img
           src="/spa-massage-therapy-relaxation-wellness-center.jpg"
           alt="Spa massage therapy"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        /> */}
+         <div className="relative w-full max-w-4xl aspect-video animate-fade-in">
+            <button
+              onClick={() => setIsModalOpen(false)}
+              className="absolute -top-10 right-0 text-white hover:text-gray-300 transition"
+            >
+              <X size={32} />
+            </button>
+           <div className="flex items-center justify-center w-full h-screen">
+  <div className="w-full max-w-4xl aspect-video">
+    <iframe
+      width="169%"
+      height="250%"
+      text-align="center"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      className="rounded"
+    />
+  </div>
+</div>
+
+          </div>
 
         {/* Play Button */}
-        <button
+        {/* <button
           onClick={() => setIsModalOpen(true)}
           className="absolute inset-0 flex items-center justify-center z-20 group"
         >
           <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white/30 backdrop-blur-sm border border-white/40 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
             <div className="w-0 h-0 border-l-8 border-l-white border-t-5 border-t-transparent border-b-5 border-b-transparent ml-1" />
           </div>
-        </button>
+        </button> */}
       </section>
 
       {/* Modal */}
@@ -151,7 +177,7 @@ export default function HeroWithNavbar() {
           onClick={handleModalBackdropClick}
           className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 animate-fade-in"
         >
-          <div className="relative w-full max-w-4xl aspect-video animate-fade-in">
+          {/* <div className="relative w-full max-w-4xl aspect-video animate-fade-in">
             <button
               onClick={() => setIsModalOpen(false)}
               className="absolute -top-10 right-0 text-white hover:text-gray-300 transition"
@@ -167,7 +193,7 @@ export default function HeroWithNavbar() {
               allowFullScreen
               className="rounded"
             />
-          </div>
+          </div> */}
         </div>
       )}
 
