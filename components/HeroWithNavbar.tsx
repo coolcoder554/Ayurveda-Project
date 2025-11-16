@@ -39,7 +39,7 @@ export default function HeroWithNavbar() {
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <div className="font-serif text-2xl font-500 text-[#111]">hibiscus</div>
+            <div className="font-serif text-2xl font-500 text-[#111]">Ayurveda</div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
